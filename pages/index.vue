@@ -10,7 +10,7 @@
           <h2 class="font-display text-gray-700">
             Toolbox for Reddit is a Firefox and Chromium browser extension that provides a myriad of features and functionality to help Reddit moderators with their moderation work.
           </h2>
-          <div class="font-body flex flex-row items-stretch m-4">
+          <div class="font-body flex flex-row items-stretch m-4 whitespace-no-wrap">
             <a
               href="https://addons.mozilla.org/en-US/firefox/addon/reddit-moderator-toolbox/"
               target="_blank"
@@ -49,7 +49,7 @@
     </div>
     <div class="pb-2 bg-gray-200">
       <tb-page class="flex justify-between">
-        <div class="flex-initial mr-12">
+        <div class="flex-initial sm:mb-0 mb-5 sm:mr-12 mr-0 sm:w-auto w-full">
           <a
             href="https://www.reddit.com/r/toolbox/wiki/docs/removalreasons"
             target="_blank"
@@ -73,10 +73,10 @@
     </div>
     <div class="py-2">
       <tb-page class="flex flex-initial justify-between">
-        <div class="flex-initial mr-12">
+        <div class="flex-initial sm:mr-12 mr-0">
           <img src="~/assets/toolbox-features/mod-macro-add.png" alt="Mod macros" class="shadow-md">
         </div>
-        <div class="flex-auto">
+        <div class="flex-auto sm:mb-0 mb-5 sm:order-none order-first sm:w-auto w-full">
           <a
             href="https://www.reddit.com/r/toolbox/wiki/docs/removalreasons"
             target="_blank"
