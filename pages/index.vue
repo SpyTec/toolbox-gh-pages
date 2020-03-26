@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="mx-6">
+    <div class="my-6">
       <Page>
         <logo class="flex-initial sm:w-64 w-16 mr-8" />
         <div class="flex-auto">
@@ -54,7 +54,7 @@
           <p>Removal reasons does things</p>
         </div>
         <div class="flex-initial bg-gray-500">
-          <img src="~/assets/toolbox-features/removal-reasons.png" alt="Removal reasons">
+          <img src="~/assets/toolbox-features/removal-reasons.png" alt="Removal reasons" class="shadow-md">
         </div>
       </Page>
     </div>
