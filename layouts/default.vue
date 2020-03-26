@@ -35,15 +35,31 @@
     <div>
       <nuxt />
     </div>
+    <div class="bg-gray-800 text-gray-300 text-sm">
+      <tb-page class="grid sm:grid-cols-2 grid-cols-1 gap-2">
+        <span class="align-center my-auto">
+          Copyright 2020 - Toolbox team
+        </span>
+        <div class="flex flex-col">
+          <h3 class="text-xl">Resources</h3>
+          <ul>
+            <li><a class="border-b-2 border-transparent hover:border-blue-400 hover:text-white" href="https://github.com/toolbox-team/reddit-moderator-toolbox" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a class="border-b-2 border-transparent hover:border-blue-400 hover:text-white" href="https://github.com/toolbox-team/reddit-moderator-toolbox/issues" target="_blank" rel="noopener">Issue Tracker</a></li>
+          </ul>
+        </div>
+      </tb-page>
+    </div>
   </div>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
+import TbPage from '~/components/TbPage.vue'
 
 export default {
   components: {
-    Logo
+    Logo,
+    TbPage
   }
 }
 </script>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="my-6">
-      <Page>
+      <tb-page>
         <logo class="flex-initial sm:w-64 w-16 mr-8" />
         <div class="flex-auto">
           <h1 class="font-display text-4xl leading-tight">
@@ -40,15 +40,15 @@
             </a>
           </div>
         </div>
-      </Page>
+      </tb-page>
     </div>
     <div class="bg-gray-200">
-      <Page>
+      <tb-page>
         <h2 class="text-3xl m-auto">Features</h2>
-      </Page>
+      </tb-page>
     </div>
     <div class="pb-2 bg-gray-200">
-      <Page class="flex justify-between">
+      <tb-page class="flex justify-between">
         <div class="flex-initial mr-12">
           <a
             href="https://www.reddit.com/r/toolbox/wiki/docs/removalreasons"
@@ -69,10 +69,10 @@
         <div class="flex-initial">
           <img src="~/assets/toolbox-features/removal-reasons.png" alt="Removal reasons" class="shadow-md">
         </div>
-      </Page>
+      </tb-page>
     </div>
     <div class="py-2">
-      <Page class="flex flex-initial justify-between">
+      <tb-page class="flex flex-initial justify-between">
         <div class="flex-initial mr-12">
           <img src="~/assets/toolbox-features/mod-macro-add.png" alt="Mod macros" class="shadow-md">
         </div>
@@ -92,19 +92,19 @@
             <li>Executes all actions selected.</li>
           </ul>
         </div>
-      </Page>
+      </tb-page>
     </div>
   </div>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
-import Page from '~/components/Page.vue'
+import TbPage from '~/components/TbPage.vue'
 
 export default {
   components: {
     Logo,
-    Page
+    TbPage
   }
 }
 </script>
