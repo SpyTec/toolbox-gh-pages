@@ -44,7 +44,9 @@
     </div>
     <div class="bg-gray-200">
       <tb-page>
-        <h2 class="text-3xl m-auto">Features</h2>
+        <h2 class="text-3xl m-auto">
+          Features
+        </h2>
       </tb-page>
     </div>
     <div class="pb-2 bg-gray-200">

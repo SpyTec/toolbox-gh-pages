@@ -41,7 +41,9 @@
           Copyright 2020 - Toolbox team
         </span>
         <div class="flex flex-col">
-          <h3 class="text-xl">Resources</h3>
+          <h3 class="text-xl">
+            Resources
+          </h3>
           <ul>
             <li><a class="border-b-2 border-transparent hover:border-blue-400 hover:text-white" href="https://github.com/toolbox-team/reddit-moderator-toolbox" target="_blank" rel="noopener">GitHub</a></li>
             <li><a class="border-b-2 border-transparent hover:border-blue-400 hover:text-white" href="https://github.com/toolbox-team/reddit-moderator-toolbox/issues" target="_blank" rel="noopener">Issue Tracker</a></li>
