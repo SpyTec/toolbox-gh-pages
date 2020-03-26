@@ -78,7 +78,7 @@
         </div>
         <div class="flex-auto sm:mb-0 mb-5 sm:order-none order-first sm:w-auto w-full">
           <a
-            href="https://www.reddit.com/r/toolbox/wiki/docs/removalreasons"
+            href="https://www.reddit.com/r/toolbox/wiki/docs/modmacros"
             target="_blank"
             rel="noopener"
           >
