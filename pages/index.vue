@@ -44,28 +44,53 @@
     </div>
     <div class="bg-gray-200">
       <Page>
-        <h2 class="text-4xl m-auto">Features</h2>
+        <h2 class="text-3xl m-auto">Features</h2>
       </Page>
     </div>
-    <div class="bg-gray-200">
+    <div class="pb-2 bg-gray-200">
       <Page class="flex justify-between">
-        <div class="flex-initial">
-          <h2 class="text-2xl">Removal reasons</h2>
-          <p>Removal reasons does things</p>
+        <div class="flex-initial mr-12">
+          <a
+            href="https://www.reddit.com/r/toolbox/wiki/docs/removalreasons"
+            target="_blank"
+            rel="noopener"
+          >
+            <h2 class="text-2xl border-b-2 border-blue-400 hover:border-blue-600 mb-3">
+              Removal reasons
+            </h2>
+          </a>
+          <p>Gives you the ability to provide dynamic removals when removing items.</p>
+          <ul class="list-disc list-outside ml-4 mt-2">
+            <li>Subreddit specific removal reasons.</li>
+            <li>Use dropdowns, checkboxes, and text inputs.</li>
+            <li>Leave removal reasons as a comment, PM, or Modmail.</li>
+          </ul>
         </div>
-        <div class="flex-initial bg-gray-500">
+        <div class="flex-initial">
           <img src="~/assets/toolbox-features/removal-reasons.png" alt="Removal reasons" class="shadow-md">
         </div>
       </Page>
     </div>
-    <div class="">
-      <Page class="flex justify-between">
-        <div class="flex-initial bg-gray-500">
-          Image of something
+    <div class="py-2">
+      <Page class="flex flex-initial justify-between">
+        <div class="flex-initial mr-12">
+          <img src="~/assets/toolbox-features/mod-macro-add.png" alt="Mod macros" class="shadow-md">
         </div>
-        <div class="flex-initial">
-          <h2 class="text-2xl">Mod macros</h2>
-          <p>things</p>
+        <div class="flex-auto">
+          <a
+            href="https://www.reddit.com/r/toolbox/wiki/docs/removalreasons"
+            target="_blank"
+            rel="noopener"
+          >
+            <h2 class="text-2xl border-b-2 border-blue-400 hover:border-blue-600 mb-3">
+              Mod macros
+            </h2>
+          </a>
+          <p>Automation of actions through simple-to-use macros.</p>
+          <ul class="list-disc list-outside ml-4 mt-2">
+            <li>Usable for posts, comments, and new modmail.</li>
+            <li>Executes all actions selected.</li>
+          </ul>
         </div>
       </Page>
     </div>
