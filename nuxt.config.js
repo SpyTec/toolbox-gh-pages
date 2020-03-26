@@ -16,6 +16,9 @@ export default {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap' }
     ]
   },
+  router: {
+    base: '/toolbox-gh-pages/'
+  },
   /*
   ** Customize the progress-bar color
   */
